@@ -1,0 +1,59 @@
+.login {
+    position: relative;
+}
+
+.login__title {
+    margin-bottom: 20px;
+}
+
+.login__error {
+    width: 300px;
+    height: 70px;
+    /* Начальная высота 0 */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--white-color);
+    background-color: var(--secondary-color);
+    margin-bottom: 20px;
+    padding: 10px 5px;
+    border-radius: 10px;
+    position: absolute;
+    top: -100px;
+    left: 55px;
+}
+
+
+
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 400px;
+}
+
+.form__input {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+.login__send {
+    margin-bottom: 20px;
+}
+
+.login__text {
+    color: var(--text-secondary-color);
+    margin-bottom: 5px;
+}
+
+.login__link {
+    color: var(--primary-color);
+    text-decoration: none;
+    transition: all 0.3s;
+}
+
+.login__link:hover {
+    color: var(--primary-hover-color);
+}

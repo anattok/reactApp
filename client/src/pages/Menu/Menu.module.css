@@ -1,0 +1,11 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+
+.products {
+    display: grid;
+    grid-template-columns: repeat(4, 320px);
+    gap: 20px;
+}

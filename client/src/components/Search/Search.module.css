@@ -1,0 +1,25 @@
+.input {
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    color: var(--text-color);
+    border: 1px solid #eee;
+    box-shadow: 15px 20px 45px 0px rgba(233, 233, 233, 0.25);
+    border-radius: 10px;
+    padding: 20px;
+
+}
+
+.search {
+    position: relative;
+}
+
+.input {
+    padding: 12px 20px 12px 40px;
+}
+
+.search img {
+    position: absolute;
+    top: 12px;
+    left: 9px;
+}
